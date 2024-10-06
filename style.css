@@ -1,0 +1,108 @@
+/* Style for the navigation bar */
+nav {
+    background-color: #0066b2; /* Blue background */
+    position: absolute; /* Positioning the nav in the top-right */
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Align items in a row */
+}
+
+nav ul li {
+    margin-left: 20px; /* Space between each link */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: #fff; /* White text */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Make text bold */
+    padding: 10px 15px; /* Add padding */
+    background-color: #0066b2; /* Blue background by default */
+    border-radius: 5px; /* Slightly round the corners */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+nav ul li a:hover {
+    background-color: #fff; /* Change background to white on hover */
+    color: #000; /* Change text to black on hover */
+}
+
+/* Style for the main content */
+main {
+    padding: 20px; /* Add padding inside the main content */
+    font-family: Arial, sans-serif;
+}
+
+/* Reset body margins and padding */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.aboutgym{
+    width: 850px;
+}
+
+.homeHeading{
+    color: #0066b2;
+}
+
+.homepagePic{
+    width: 850px;
+    height: 500px;
+
+}
+
+.calendar {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px;
+}
+
+.calendar th, .calendar td {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+.calendar th {
+    background-color: #007BFF;
+    color: white;
+}
+
+.calendar td {
+    height: 80px;
+    vertical-align: top;
+}
+
+.calendar td:hover {
+    background-color: #f1f1f1;
+}
+
+.buyTicket{
+width: 200px;
+height: 75px;
+font-size: 30px;
+background-color: #0066b2;
+color: white;
+}
+
+.container {
+    display: flex;  /* Enable flexbox */
+    justify-content: space-between; /* Optional: space between the divs */
+}
+
+.box {
+    width: 45%; /* Adjust the width as needed */
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+}
+
